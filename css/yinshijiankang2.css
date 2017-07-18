@@ -1,0 +1,331 @@
+body{
+	background:#fae8c8;
+}
+
+.clear_m{	
+	clear: both;
+}
+.nav_h2{
+	text-align:center;
+	display: inline-block;
+	background:url(../img/nz.jpg) no-repeat 80px center;
+	clear:both;
+	margin-left:148px;
+	padding:43px 100px 40px;
+}
+.nav_h2 a{
+	color:black;
+	font-weight: normal;
+}
+.nav_h2 a:hover{
+	text-decoration: underline;
+}
+
+/*导航条往下的小菜单表格部分*/
+.table1{
+	width: 990px;
+	height: 243px;
+	background:white;
+}
+.table1 li{
+	display: inline;	
+	
+}
+.table_ul1{
+	width:990px;
+	height: 53px;
+	background:#fdf4e4;		
+}
+
+.table_ul1 li{
+	line-height: 53px;
+	float: left;
+	
+}
+.table_ul1 a{
+	padding:0 24px;	
+	color:black;
+	font-size: 16px;
+	font-weight: bold;
+}
+.table_ul1 a:hover{
+	display: inline-block;
+	padding:0 24px;	
+	line-height: 52px;
+	color:#ff3232;
+	background:#fefaf2;
+}
+.table_li a{
+	display: inline-block;
+	line-height: 52px;
+	color:#ff3232;
+	font-size: 16px;
+	font-weight: bold;
+	background:white;
+}
+.table1 h2{
+	padding:12px 0 12px 18px;
+	font-weight: normal;
+	color:#333333;	
+}
+.table_ul2{
+	margin-left: 15px;
+}
+.table_ul2 li{
+	font-weight: lighter;
+
+}
+.table_ul2 a{
+	color:#666666;
+	font-size: 14px;
+	line-height: 28px;
+	padding:0 8px;
+}
+.table_ul2 a:hover{
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	color:white;
+	font-size: 14px;
+	background:#ff3232;
+	padding:0 8px;
+	border-radius: 5%;
+}
+.table_l{
+	width:210px;
+	height: 95px;
+	border:1px solid #eeeeee;
+}
+
+.table_m{
+	width: 570px;
+	height: 95px;
+	border:1px solid #eeeeee;
+	margin-top: 0px;
+}
+.table_r{
+	width: 210px;
+	height: 95px;
+	border:1px solid #eeeeee;
+	margin-top: 0px;
+}
+
+
+
+/*banner往下的菜单部分*/
+.menu{
+	margin: 0 auto;
+	width: 990px;
+	height: 630px;	
+	position:relative;
+ 	overflow:hidden;
+}
+.menu_list_a{
+	width: 990px;
+	height: 600px;
+	float:left;	
+}
+.menu_list_box{
+	width: 4950px;
+	height: 600px;
+	position:absolute;	
+}
+.menu1{
+	width: 315px;
+	height: 295px;
+	background:white;
+	margin-bottom: 20px;
+}
+
+
+a.menu1_a{
+	padding-left: 10px;
+	color:black;
+	font-weight: normal;
+}
+a.menu1_a:hover{
+	color:red;
+	text-decoration: underline;
+}
+.mar1{
+	margin-left: 22px;
+}
+
+/*左右两边点击下一张图片的按钮*/
+.next_a{
+	position:absolute;
+	top:275px;
+	right:10px;	
+	width:60px;
+	height:60px;
+	background:url(../img/37bOOOPIC94.png) no-repeat 0 -5px;
+	background-size:100% 110%;	
+	cursor:pointer;
+}
+.next_a:hover{
+	background:url(../img/37bOOOPIC941.png) no-repeat 0 -5px;
+	background-size:100% 110%;	
+}
+.pre_a{
+	position:absolute;	
+	top:275px;
+	left:10px;
+	width:60px;
+	height:60px;
+	background:url(../img/OOOPIC941.png) no-repeat 0 -5px;
+
+	background-size:100% 110%;	
+	cursor:pointer;
+}
+.pre_a:hover{
+	background:url(../img/OOOPIC94.png) no-repeat 0 -5px;
+	background-size:100% 110%;	
+}
+
+/*菜单下的三条小横杆*/
+.heng{
+	width:115px;
+	height: 4px;
+	position:absolute;
+	bottom:0px;
+	left:437px;
+}
+.heng span{
+	float: left;
+	width:30px;
+	height: 4px;
+	background: #eddcbe;
+	margin-left: 3px;
+	margin-right: 3px;
+	cursor:pointer;
+}
+
+.heng .on_a{
+	background: #ff5151;
+}
+
+.menu_b{
+	width: 990px;
+	height: 193px;
+	background:white;
+}
+
+
+
+/*最下面的菜单部分*/
+.menu_bot{
+	width: 93px;
+	height: 1038px;
+	border:1px solid black;
+
+}
+
+.menu_m{
+	clear: both;
+	width: 993px;
+	position: relative;
+
+}
+.menu_m1{
+	width: 232px;
+	height: 335px;
+	margin-right: 21px;
+	margin-bottom: 20px;
+	background: white;
+}
+.menu_m2{
+	width: 232px;
+	height: 335px;
+	margin-bottom: 20px;
+	background: white;
+}
+.mad1_h{
+	padding-left: 10px;
+	padding-top:10px;
+	font-size: 16px;
+	padding-top: 5px;
+	line-height: 30px;
+}
+.same_span1{
+	line-height: 35px;
+	padding-left: 10px;
+	color:red;
+	font-size:12px;
+}
+
+
+/*图片翻转部分*/
+.rotate_t{
+	width: 232px;
+	height:98px;
+	background:white;
+	position:absolute;
+	z-index: 20;
+}
+/*.rotate_t:hover{
+	transform: rotateX(-180deg);
+	transition:all 3s;
+	backface-visibility: hidden;	
+}*/
+.rotate_b{
+	width: 232px;
+	height: 98px;
+	padding-top: 30px;
+	padding-left: 45px;
+	background:url(../img/IG3.jpg) no-repeat 15px 27px #eeeeee;
+	position: absolute;
+}
+.rotate_b span{
+	color:#666666;
+	font-size: 15px;
+	line-height: 30px;
+	display:block ;	
+}
+.menu_m3{
+	width: 232px;
+	height: 335px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+/*菜单下部页面跳转按钮部分*/
+.footer_bot{
+	clear: both;
+	width: 600px;
+	height: 45px;
+	margin: 50px auto;
+	margin-bottom: 70px;
+}
+.footer_bot a{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 40px;
+	padding:0 17px;
+	color:black;
+	background:#f5f5f5;
+}
+.footer_bot .footer_bot_a{
+	background:#ff3232;
+	color: white;
+}
+.footer_bot a:hover{
+	background:#ff3232;
+	color: white;	
+}
+.footer_bot span{
+	display: inline-block;
+	font-size: 12px;
+	padding:0 17px;
+	color:#666666;
+}
+.footer_bot_text{
+	display:inline-block;
+	width:40px;
+	height: 40px;	
+}
+.footer_bot_btn{
+	width: 50px;
+	height: 36px;
+	background:#f5f5f5;
+	border:none;
+}

@@ -1,0 +1,58 @@
+body{
+	background:#fae8c8;
+}
+/*第一个菜单*/
+.menu_sj{
+	width: 990px;
+	height: 300px;
+	background:white;
+}
+.menu_sj_t{
+	background:white;
+	width: 330px;
+	height: 100px;
+	border:1px solid #eeeeee;
+	padding:15px;
+}
+.menu_sj_t img{
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+.menu_sj_t dl{
+	width: 220px;
+	height: 70px;
+}
+.menu_sj_t dt{
+	font-size: 20px;
+	color:black;
+	line-height: 38px;
+}
+.menu_sj_t dd{
+	font-size: 12px;
+	color:#999999;
+}
+a .menu_sj_t:hover{
+	background:#f3f3f3;
+}
+.middle1{
+	margin: auto;
+	width: 253px;
+	height: 524px;
+	background:url(../img/sj_03.jpg) no-repeat 0 0;
+	position:relative;
+}
+.middle1_img{
+	position:absolute;
+	right:15px;
+	top:64px;
+	width: 222px;
+	height: 391px;
+}
+.middle1 img{
+	position:absolute;
+	right:0px;
+	top:0px;
+	width: 222px;
+	height: 391px;
+}

@@ -1,0 +1,337 @@
+body{
+/*	background:#fae8c8;*/
+	background:#f5f5f5;
+}
+/*登录方式*/
+.denglu_icon a span{
+	width:108px;
+	height:108px;
+	display:inline-block;
+	margin:0 20px;
+}
+.denglu_imgA{
+	background:url(../img/nl_dsficon1.png) no-repeat 0 0;
+}
+.denglu_imgA:hover{
+	background:url(../img/nl_dsficon1.png) no-repeat 0 -108px;
+}
+.denglu_imgB{
+	background:url(../img/nl_dsficon1.png) no-repeat -108px 0 ;
+}
+.denglu_imgB:hover{
+	background:url(../img/nl_dsficon1.png) no-repeat -108px -108px;
+}
+.denglu_imgC{
+	background:url(../img/nl_dsficon1.png) no-repeat -216px 0;
+}
+.denglu_imgC:hover{
+	background:url(../img/nl_dsficon1.png) no-repeat -216px -108px;
+}
+.denglu{
+	margin:35px auto;
+	width: 1000px;
+	height: 925px;
+	background:white;
+}
+.dl_m{
+	width: 1000px;
+	text-align: center;	
+	margin-top: 28px;
+}
+.dl_m a{
+	color:black;
+	font-size: 14px;
+
+}
+.dl_m a:hover{
+	color:red;
+	text-decoration: underline;
+}
+
+/*表单上面注册，登录标题部分*/
+.form_dl{
+	top:0;
+	left:0;
+	width: 600px;
+	height: 460px;
+	margin-top: 45px;
+	border-radius: 10px;
+	background:#f5f5f5;
+	border:1px solid transparent;
+}
+.form_dl p{
+	margin:40px auto;
+	text-align:center;
+}
+.form_title span{
+	font-size:16px;
+	font-weight:bold;
+}
+p.form_title span a{
+	color:#999999;
+}
+/*.form_title .current{
+	color:#999999;
+}*/
+.form_title .active{
+	color:black;
+}
+.form_title span a:hover{
+	color:#ec5541;
+}
+/*表单form部分*/
+.phone_login{
+	float:left;
+    width: 320px;
+    margin: 24px auto 0px;
+    overflow: hidden;
+    text-align: left;	
+}
+.denglu_f{
+	width:320px;
+	height: 290px;
+	background:#f5f5f5;
+	margin:0 auto;
+ 	background:transparent;
+ 	
+}
+.denglu_f p{
+	margin:0 auto;
+}
+.denglu_phone{
+	width:320px;
+	height: 45px;
+	border-radius: 4px;
+	border:none;
+	border:1px solid #dddddd;
+	margin:0 auto;
+	padding:10px;
+}
+.denglu_pwd{
+	width:320px;
+	height: 45px;
+	border-radius: 4px;
+	border:none;
+	border:1px solid #dddddd;
+	margin:0 auto;
+	padding:10px;	
+}
+/*验证码部分*/
+.denglu_text2{
+	width:175px;
+	height: 45px;
+	padding-left: 10px;
+	margin-top:8px;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	border:none;
+	border:1px solid #dddddd;	
+	float:left;
+}
+.denglu_btn{
+	width:135px;
+	height: 45px;
+	margin-top:8px;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	border:none;
+	border:1px solid #dddddd;	
+	background:#dddddd;
+	color:#999999;
+	cursor:pointer;
+	float:right;
+}
+.denglu_same{
+	border:1px solid #95b7ee;
+	box-shadow:0 0 2px #95b7ee;
+}
+/*提示语句的样式*/
+.denglu_f span{
+	height:16px;
+	line-height:16px;
+	padding-bottom: 10px;
+	display: inline-block;
+	color:#ec5541;
+	font-size: 12px;
+	font-weight: normal;
+}
+.denglu_f .spanA{
+	color:red;		
+}
+.denglu_f .spanB{
+	color:#7ecef4;	
+}
+.denglu_f .spanC{
+	color:#8fc31f;	
+}
+.denglu_f .form_logoA{
+	display: inline-block;
+	width:13px;
+	height:13px;
+	line-height: 12px;
+	border-radius: 50%;
+	background:#ec5541;
+	color:white;
+	text-align: center;
+}
+.denglu_f .form_logoB{
+	display: inline-block;
+	width:13px;
+	height:13px;
+	line-height: 12px;
+	border-radius: 50%;
+	background:#7ecef4;
+	color:white;
+	text-align: center;	
+}
+.denglu_f .form_logoC{
+	display: inline-block;
+	width:13px;
+	height:13px;
+	line-height: 12px;
+	border-radius: 50%;
+	background:#8fc31f;
+	color:white;
+	text-align: center;	
+}
+.denglu_f label{
+	margin-top:10px;
+	font-size: 12px;
+	color:#666666;
+}
+.denglu_f label a{
+	color: #ec5541;
+}
+/*注册按钮*/
+.denglu_btn1{
+	width: 80px;
+	height: 43px;
+	margin:10px 120px;
+	font-size: 15px;
+	color:white;
+	background:#ec5541;
+	border:none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.denglu_btn1:hover{
+	background:#db432e;
+}
+
+/*密码框的设置*/
+.usertipB span{
+	font-size:12px;
+}
+.form_pwd{
+    width:153px;
+   	height:8px;
+    border:1px solid black;
+}
+em{
+   	display:inline-block;
+   	width:20px;
+   	height:6px;
+   	margin:0 3px;
+   	background:#dddddd;
+}
+em:nth-child(2){
+    opacity:0.6;
+}
+em:nth-child(3){
+    opacity:0.4;
+}
+.form_emA{
+	background:red;	
+}
+.form_emB{
+	background:#f98120;	
+}
+.form_emC{
+	background:#8fc31f;	
+}
+.form_checkbox{
+	border:none;
+	vertical-align: middle;
+	border-radius:2px;
+}
+/*第三方登录的图标*/
+.denglu_icon{
+	width: 1000px;
+	text-align: center;	
+}
+.denglu_icon img{
+	margin:0 25px;
+}
+/*邮箱注册*/
+.login_box{
+	width: 325px;
+	height:100%;
+    overflow: hidden;
+    margin: 0px auto 0px;
+}
+.animat_form{
+	clear: both;
+	width: 647px;
+	height:100%;
+	
+}
+.email_login{
+    float: right;
+    width: 320px;
+    margin: 24px auto 0px;
+    overflow: hidden;
+    text-align: left;    
+}
+.denglu_r{
+	width:320px;
+	height: 290px;
+    background: transparent;
+	
+	
+}
+.loginitem{
+    height: 44px;
+    width: 320px;
+    margin-bottom: 14px;	
+}
+.email_login .email_address{
+	width: 100%;	
+	height:100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+    padding: 11px;
+    vertical-align: middle;
+}
+.loginitem label{
+    color: #666;
+    font-size: 13px;
+    line-height: 22px;	
+}
+.checkbox{
+    margin-top: -2px;
+    position: relative;	
+    vertical-align: middle;
+}
+.denglu_r .loginitem a{
+	font-size:12px;
+	color:#ec5541;
+}
+.register{
+	text-align:center;
+}
+.register_submit{
+    display: inline-block;
+    vertical-align: top;
+    height: 42px;
+    border: 1px solid #db432e;
+    border-radius: 4px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0px 24px;
+    background: #ec5541;
+    cursor: pointer;
+}

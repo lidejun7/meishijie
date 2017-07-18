@@ -1,0 +1,176 @@
+body{
+/*	background:#fae8c8;*/
+	background:#f5f5f5;
+}
+/*导航往下的第一个菜单*/
+.menu_box{
+	position:relative;	
+	top:0;
+	left:0;
+	width:315px;
+	height:213px;
+}
+.menu_box_img{
+    position: absolute;
+    z-index: 3;
+	width:315px;
+	height:213px;
+    transform: rotateY(0);
+    transition: all 0.50s ease-in-out 0s;
+	border-radius: 0 0 10px 10px;
+}
+.menu_box_img img{
+    width: 100%;
+    height: 100%;	
+}
+.menu_box_content{
+	width:315px;
+	height:213px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    padding: 30px 5px;
+    text-align: center;
+
+    transform: rotateY(90deg);
+    transition: all 0.50s ease-in-out 0s;
+}
+.box_content_a{
+    background: #77bf2e;	
+}
+.box_content_b{
+    background: #ffc533;	
+}
+.box_content_c{
+    background: #3357b5;	
+}
+.box_content_d{
+    background: #ff4233;	
+}
+.box_content_e{
+    background: #6933ab;	
+}
+.box_content_f{
+    background: #39c45d;	
+}
+.menu_box:hover .menu_box_content{
+	transform:rotateY(0deg);	
+}
+.menu_box:hover .menu_box_img{
+	transform:rotateY(90deg);	
+}
+.menu_box_content p,
+.menu_box_content h4{
+	color:white;
+}
+.menu_box .title:after,
+.menu_box .description:after{
+    content: "";
+    width: 80%;
+    display: block;
+    border-bottom: 1px solid #fff;
+    margin: 15px auto;
+    
+}
+
+
+
+
+/*打横排布的菜单*/
+.menu_line{
+	width: 990px;
+	height: 242px;
+	background:white;
+	padding:20px;
+	margin-bottom: 20px;
+}
+.menu_line h3 a{
+	color:#333333;		
+}
+.menu_line span{
+	font-size: 12px;
+	color:#999999;
+	font-weight: normal;
+}
+/*打横排布的菜单的文字部分*/
+.menu_line_box{
+	width: 950px;
+	height: 160px;
+	clear: both;
+	margin-top: 40px;
+
+}
+.menu_line1{
+	width: 140px;
+	height: 160px;
+}
+.menu_line1 span:{
+	color: #999999;
+}
+.menu_line1_span a{
+	margin-top: 101px;
+	display:block;
+	color:#999999;
+	line-height: 38px;
+	padding:0 5px 0 50px;
+	background:url(../img/tx.jpg) no-repeat 0 0;
+}
+.menu_line1_span a:hover{
+	line-height: 38px;
+	padding:0 5px 0 50px;
+	background:url(../img/tx.jpg) no-repeat 0 0 rgba(143,143,143,0.1);
+	color: red;
+}
+/*打横排布的菜单的图片部分*/
+.menu_img1{
+	width: 160px;
+	height: 160px;
+	margin-right: 1px;
+	/*position:relative;*/
+}
+.menu_line_box a h4{
+	position: absolute;
+	display: inline-block;
+	width:160px;
+	height: 38px;
+	line-height: 38px;
+	margin-top: 122px;
+	color: transparent;
+	background:rgba(0,0,0,0);
+	text-align: center;
+	font-size: 14px;
+	left:140px;
+	display:none;
+}
+.menu_line1_box{
+	/*position: relative;*/
+}
+a h4:hover{
+	width:160px;
+	height: 38px;	
+	color:white;
+	background:rgba(0,0,0,0.7);	
+	display:none;
+}
+
+a .menu_line1{
+	top:0px;
+	left:0px;
+}
+a .menu_line2{
+	top:0px;
+	left: 161px;
+}
+a .menu_line3{
+	top:0px;
+	left: 322px;
+}
+a .menu_line4{
+	top:0px;
+	left: 483px;
+}
+a .menu_line5{
+	top:0px;
+	left: 644px;
+}
